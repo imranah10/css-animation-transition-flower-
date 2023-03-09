@@ -1,0 +1,217 @@
+
+
+.parent{
+    height: 400px;
+    width: 400px;
+    margin: 120px auto;
+    position: relative;
+
+    animation-name: moving;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moving{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.child{
+    height: 200px;
+    width: 200px;
+    transform: rotate(0deg);
+   
+}
+.child1{
+    
+    background: green;
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 200px;
+    transform-origin: right bottom;
+
+    
+}
+
+.child2{
+    /* background: darkmagenta; */
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+.child3{
+    background: darkturquoise;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+.child4{
+    background: pink;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+}
+/* common flower shape */
+.child5{
+    background: yellow;
+    position: absolute;
+    top: 0px;
+    transform-origin:bottom right ;
+    transform: rotate(11deg);
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 200px;
+}
+
+.child6{
+    background: chocolate;
+    transform: rotate(22deg);
+}
+.child7{
+    background: pink;
+    transform: rotate(33deg);
+}
+.child8{
+    background: lawngreen;
+    transform: rotate(44deg);
+}
+.child9{
+    background: darkmagenta;
+    transform: rotate(55deg);
+}
+.child10{
+    background: darkblue;
+    transform: rotate(66deg);
+}
+.child11{
+    background: gold;
+    transform: rotate(77deg);
+}
+.child12{
+    background: black;
+    transform: rotate(88deg);
+}
+.child13{
+    background: sandybrown;
+    transform: rotate(99deg);
+}
+.child14{
+    background: orchid;
+    transform: rotate(110deg);
+}
+.child15{
+    background: cadetblue;
+    transform: rotate(121deg);
+}
+.child16{
+    background: indianred;
+    transform: rotate(132deg);
+}
+.child17{
+    background: cyan;
+    transform: rotate(143deg);
+}
+.child18{
+    background: fuchsia;
+    transform: rotate(154deg);
+}
+.child19{
+    background: gray;
+    transform: rotate(165deg);
+}
+.child20{
+    background: coral;
+    transform: rotate(176deg);
+}
+.child21{
+    background: navy;
+    transform: rotate(187deg);
+}
+.child22{
+    background: hotpink;
+    transform: rotate(198deg);
+}
+.child23{
+    background: lawngreen;
+    transform: rotate(209deg);
+}
+.child24{
+    background: teal;
+    transform: rotate(220deg);
+}
+
+.child25{
+    background: rebeccapurple;
+    transform: rotate(231deg);
+}
+.child26{
+    background: lightcoral;
+    transform: rotate(242deg);
+}
+.child27{
+    background: indigo;
+    transform: rotate(253deg);
+}
+.child28{
+    background: firebrick;
+    transform: rotate(264deg);
+}
+
+.child29{
+    background: magenta;
+    transform: rotate(275deg);
+}
+.child30{
+    background: mediumorchid;
+    transform: rotate(286deg);
+}
+.child31{
+    background: plum;
+    transform: rotate(297deg);
+}
+.child32{
+    background: khaki;
+    transform: rotate(308deg);
+}
+.child33{
+    background: palegreen;
+    transform: rotate(319deg);
+}
+.child34{
+    background: lightblue;
+    transform: rotate(330deg);
+}
+.child35{
+    background: blue;
+    transform: rotate(341deg);
+}
+
+
+/* responsive  */
+@media(max-width:537px){
+.parent{
+    height: 240px;
+    width: 240px;
+}
+.child{
+    height: 120px;
+    width: 120px;
+}
+
+/* .child4{
+    background: pink;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+} */
+
+}
